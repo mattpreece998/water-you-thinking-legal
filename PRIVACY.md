@@ -1,6 +1,6 @@
 # Privacy Policy — Water You Thinking
 
-**Last updated:** May 22, 2026  
+**Last updated:** May 23, 2026  
 **App:** Water You Thinking (Lake Powell houseboat trip planner)  
 **Publisher:** Matthew Preece / Water You Thinking LLC  
 **Contact:** support@matthewpreece.com
@@ -16,9 +16,9 @@ Water You Thinking helps private trip groups plan a Lake Powell houseboat vacati
 | **Email address** | Sign-in and account identity (Supabase Auth) |
 | **Name** | Profile display and attribution on trip actions |
 | **Phone number** (optional) | Profile / directory contact |
-| **Photos and documents you upload** | Shared trip library, optional AI summaries, search terms, and assistant context when you grant AI permission |
+| **Photos and documents you upload** | Shared trip library and assistant context only if you later choose Trip Assistant and grant AI permission |
+| **Photo metadata, including location if present** | Trip photo map, media details, and assistant context only if you later choose Trip Assistant and grant AI permission |
 | **Trip content** | Meals, packing lists, expenses, comments, questions, boat documents, and assistant questions visible to members of your trip |
-| **Voice input for AI features** | Optional voice assistant audio/transcripts when you choose voice chat and grant AI permission |
 | **Usage within the app** | Core planning features (no advertising profiles) |
 
 We do **not** sell your personal information. We do **not** use your data for cross-app tracking or advertising.
@@ -26,7 +26,7 @@ We do **not** sell your personal information. We do **not** use your data for cr
 ## Third-party services
 
 - **Supabase** — authentication, database, and file storage for trip data
-- **OpenAI** (optional AI features) — when you choose an AI feature and grant the relevant permission, Water You Thinking sends data through the planner server to OpenAI so it can answer trip questions, summarize or index uploaded documents and images, or provide voice-chat responses. The data sent may include your question, recent assistant chat, profile name, user/profile identifier, trip roster, rooms, meals, packing/gear requests, claims, expenses, comments, uploaded document text, uploaded image/document content, file names, dates, available photo location metadata, and generated summaries/search terms. We ask separately before assistant/voice use, media upload analysis, and document upload/analysis. We do not use OpenAI for advertising or cross-app tracking.
+- **OpenAI** (optional Trip Assistant feature) — when you choose Trip Assistant and grant permission, Water You Thinking sends data through the planner server to OpenAI so it can answer trip questions. The in-app permission prompt appears before the first assistant request and explains that your question, recent assistant chat, display name, user/profile identifier, and relevant trip planner details may be sent to the planner server and OpenAI. Relevant trip details may include roster, rooms, meals, packing/gear requests, claims, expenses, comments, boat documents, uploaded file names, dates, and available photo location metadata when needed to answer your question. We do not send photos, videos, or documents to OpenAI automatically when you upload them. We do not use OpenAI for advertising or cross-app tracking.
 
 These providers process data under their own terms and security practices. We configure them for app functionality, not for ads.
 
